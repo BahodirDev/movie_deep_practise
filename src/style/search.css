@@ -1,0 +1,99 @@
+.search{
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background: #fff;
+    }
+.search:focus{
+    color: #fff;
+}
+.search div{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+#btn_search{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.btn_filter{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.btn_filter button{
+    padding: 0px 50px;
+    background: rgb(215, 150, 14);
+}
+.btn_filter button:active{
+    transform: scale(0.9);
+    box-shadow: 4px 7px 12px rgba(0,0,0,0.5);
+}
+@media (max-width:321px) {
+    .search div{
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+    }
+    #btn_search{
+        position: absolute;
+        top: 0;
+        right: -5px;
+    }
+    .btn_filter{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 10px;
+
+    }
+    .btn_filter button{
+        margin: 5px;
+    }
+    
+}
+
+@media (max-width:376px) {
+    .search div{
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+    }
+    #btn_search{
+        position: absolute;
+        top: 0;
+        right: -5px;
+    }
+    .btn_filter{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 10px;
+
+    }
+    .btn_filter button{
+        margin: 5px;
+    }
+    
+}
+@media (max-width:426px) {
+    .search div{
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+    }
+    #btn_search{
+        position: absolute;
+        top: 0;
+        right: -5px;
+    }
+    .btn_filter{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 10px;
+
+    }
+    .btn_filter button{
+        margin: 5px;
+    }
+    
+}

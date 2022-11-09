@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+/* main_div */
+.main_div{
+  background: red;
+  height: calc(100vh -40px -20px);
+}
